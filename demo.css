@@ -1,0 +1,782 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif ;
+    text-decoration: none !important;
+    list-style: none;
+}
+body {
+    line-height: 1 !important;
+}
+nav {
+    height: 50px !important;
+}
+.navbar {
+    background-color: rgba(0,0,0,0.8) !important;
+}
+.nav-item a {
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.623) !important;
+    font-size: 14px;
+    margin-left: 60px;
+}
+.nav-item a:hover {
+    color: white !important;
+    transition: all 0.75s;
+}
+.navbar-branch i {
+    display: none;    
+}
+.logo-1 {
+    position: absolute;
+    left: 47%;
+}
+
+
+
+.under-menu {
+    font-size: 12px;
+    margin: 10px 0;
+}
+.under-menu a {
+    color: blue;
+}
+.under-menu-1 {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 10px 0;
+    display: none;
+}
+.under-menu-1 a {
+    color: blue;
+}
+
+
+
+
+.picture1 {
+    width: 1360px;
+    height: 580px;
+    background-image: url("https://www.apple.com/v/iphone-se/b/images/meta/og__eop0rb3mevma_overview.png");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.over-picture {
+    padding-top: 20px;
+    display: flex;
+}
+.over-picture1-1, .over-picture1-2,.over-picture1-1 a, .over-picture1-2 a {
+    font-size: 20px;
+    color: #2997ff;
+}
+.over-picture1-1 {
+    padding-left: 580px;
+}
+.over-picture1-2 {
+    padding-left: 35px;
+}
+.over-picture1-1 a:visited, .over-picture1-2 a:visited {
+    color: #2997ff;
+}
+.over-picture1-1 a:hover, .over-picture1-2 a:hover {
+    border-bottom: 2px solid #2997ff;
+}
+
+
+
+
+.picture2 {
+    width: 1360px;
+    height: 580px;
+    background-image: url("https://www.apple.com/v/home/h/images/heroes/iphone-11-spring/hero__dvsxv8smkkgi_medium.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.over-picture2-1, .over-picture2-2 {
+    font-size: 20px;
+    color: #06c;
+}
+.over-picture2-1 { 
+    padding-left: 580px;
+}
+.over-picture2-2 {
+    padding-left: 35px;
+}
+.over-picture2-1 a:visited, .over-picture2-2 a:visited {
+    color: #06c;
+}
+.over-picture2-1 a:hover, .over-picture2-2 a:hover {
+    border-bottom: 2px solid #06c;
+}
+
+
+
+
+.picture3 {
+    width: 1360px;
+    height: 580px;
+    background-image: url("https://www.apple.com/v/home/h/images/heroes/iphone-11-pro-spring/hero__dvsxv8smkkgi_medium.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+} 
+.over-picture3-1, .over-picture3-2,.over-picture3-1 a, .over-picture3-2 a {
+    font-size: 20px;
+    color: #2997ff;
+}
+.over-picture3-1 {
+    padding-left: 580px;
+}
+.over-picture3-2 {
+    padding-left: 35px;
+}
+.over-picture3-1 a:visited, .over-picture3-2 a:visited {
+    color: #2997ff;
+}
+.over-picture3-1 a:hover, .over-picture3-2 a:hover {
+    border-bottom: 2px solid #2997ff;
+}
+
+
+
+.introduce-1, .introduce-2, .introduce-3 {
+    display: flex;
+}
+.picture4 {
+    width: 650px;
+    height: 483.97px;
+    background-image: url("./Web\ 1920\ –\ 1.png");
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.picture4 a {
+    font-size: 20px;
+    color: #06c;
+}
+.picture4 a {
+    color: #06c;
+}
+.picture4 a:hover {
+    border-bottom: 2px solid #06c;
+}
+.icon-play {
+    padding-top: 280px;
+    padding-left: 280px;
+}
+.fa-play-circle {
+    color: blue;
+}
+
+
+
+
+.picture5 {
+    width: 650px;
+    height: 483.97px;
+    background-image: url("./Web\ 1920\ –\ 2.png");
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.inside-picture5 {
+    padding-top: 180px;
+    display: flex;
+}
+.inside-picture5-1, .inside-picture5-2 {
+    font-size: 20px;
+    color: #06c;
+}
+.inside-picture5-1 { 
+    padding-left: 240px;
+}
+.inside-picture5-2 {
+    padding-left: 35px;
+}
+.inside-picture5-1 a:visited, .inside-picture5-2 a:visited {
+    color: #06c;
+}
+.inside-picture5-1 a:hover, .inside-picture5-2 a:hover {
+    border-bottom: 2px solid #06c;
+}
+
+
+
+.picture6 {
+    width: 650px;
+    height: 483.97px;
+    background-image: url("./Web\ 1920\ –\ 3.png");
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.picture6 .inside-picture6-1 {
+    font-size: 20px;
+    color: #06c;
+}
+.picture6 a {
+    color: #06c;
+}
+.picture6 a:hover {
+    border-bottom: 2px solid #06c;
+}
+.inside-picture6-1 {
+    padding-top: 130px;
+    padding-left: 280px;
+}
+
+
+
+.picture7 {
+    width: 650px;
+    height: 483.97px;
+    background-image: url("./Web\ 1920\ –\ 4.png");
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.picture7 .inside-picture7-1 {
+    font-size: 20px;
+    color: #06c;
+}
+.picture7 a {
+    color: #06c;
+}
+.picture7 a:hover {
+    border-bottom: 2px solid #06c;
+}
+.inside-picture7-1 {
+    padding-top: 270px;
+    padding-left: 280px;
+}
+
+
+.picture8 {
+    width: 650px;
+    height: 483.97px;
+    background-image: url("./Web\ 1920\ –\ 5.png");
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.inside-picture8 {
+    padding-top: 150px;
+    display: flex;
+}
+.inside-picture8-1, .inside-picture8-2 {
+    font-size: 20px;
+    color: white;
+}
+.inside-picture8-1 { 
+    font-size: 14px;
+    padding-left: 180px;
+}
+.inside-picture8-2 {
+    font-size: 15px;
+    padding-left: 35px;
+}
+.inside-picture8-1 a:visited, .inside-picture8-2 a:visited,.inside-picture8-1 a, .inside-picture8-2 a {
+    color: white;
+}
+.inside-picture8-1 a:hover, .inside-picture8-2 a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+
+.picture9 {
+    width: 650px;
+    height: 483.97px;
+    background-image: url("./Web\ 1920\ –\ 6.png");
+    background-size: cover;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.inside-picture9 {
+    padding-top: 350px;
+    display: flex;
+}
+.inside-picture9-1, .inside-picture9-2 {
+    font-size: 20px;
+    color: white;
+}
+.inside-picture9-1 { 
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 180px;
+}
+.inside-picture9-2 {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 35px;
+}
+.inside-picture9-1 a:visited, .inside-picture9-2 a:visited,.inside-picture9-1 a, .inside-picture9-2 a {
+    color: white;
+}
+.inside-picture9-1 a:hover, .inside-picture9-2 a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+
+.description {
+    font-size: 13px;
+    width: 70%;
+    margin-left: 200px;
+}
+
+
+
+.group {
+    font-size: 12px;
+    color: rgba(112, 112, 112, 0.877);
+    display: flex;
+    margin-left: 200px;
+}
+.group a:visited, .group a {
+    color: rgba(68, 68, 68, 0.877);
+}
+.group a:hover {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.877);
+}
+
+
+
+
+.apple-number {
+    font-size: 13px;
+    color: rgba(134, 134, 134, 0.849);
+    width: 70%;
+    margin-left: 200px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(134, 134, 134, 0.5);
+}
+.apple-number a:visited, .apple-number a:hover {
+    color: #06c;
+}
+
+
+
+.footer {
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgba(112, 112, 112, 0.877);
+    margin-left: 200px;
+}
+.american-flag {
+    width: 15px;
+    height: 15px;
+    background-image: url("./16.png");
+    background-size: cover;
+    margin-left: 850px;
+    position: relative;
+    bottom: 15px;
+}
+.footer a:visited, .footer a {
+    color: rgba(68, 68, 68, 0.877);
+}
+.footer a:hover {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.877);
+}
+
+
+
+
+
+.Otherpicture1 {
+    width: 100%;
+    height: 600px;
+    background-image: url("./iPhone\ 6-7-8\ Plus\ –\ 1.png");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.Otherover-picture1-1, .Otherover-picture1-2,.Otherover-picture1-1 a, .Otherover-picture1-2 a {
+    font-size: 18px;
+    color: #2997ff;
+}
+.Otherover-picture1-1 {
+    position: absolute;
+    left: 20%;
+}
+.Otherover-picture1-2 {
+    position: absolute;
+    left: 60%;
+}
+.Otherover-picture1-1 a:visited, .Otherover-picture1-2 a:visited {
+    color: #2997ff;
+}
+.Otherover-picture1-1 a:hover, .Otherover-picture1-2 a:hover {
+    border-bottom: 2px solid #2997ff;
+}
+
+
+
+
+.Otherpicture2 {
+    width: 100%;
+    height: 600px;
+    background-image: url("./iPhone\ 6-7-8\ Plus\ –\ 2.png");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.Otherover-picture2-1, .Otherover-picture2-2,.Otherover-picture2-1 a, .Otherover-picture2-2 a {
+    font-size: 18px;
+    color: #2997ff;
+}
+.Otherover-picture2-1 {
+    position: absolute;
+    left: 20%;
+}
+.Otherover-picture2-2 {
+    position: absolute;
+    left: 60%;
+}
+.Otherover-picture2-1 a:visited, .Otherover-picture2-2 a:visited {
+    color: #2997ff;
+}
+.Otherover-picture2-1 a:hover, .Otherover-picture2-2 a:hover {
+    border-bottom: 2px solid #2997ff;
+}
+
+
+
+.Otherpicture3 {
+    width: 100%;
+    height: 600px;
+    background-image: url("https://www.apple.com/v/home/h/images/heroes/iphone-11-pro-spring/hero__dvsxv8smkkgi_medium.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+} 
+.Otherover-picture3-1, .Otherover-picture3-2,.Otherover-picture3-1 a, .Otherover-picture3-2 a {
+    font-size: 18px;
+    color: #2997ff;
+}
+.Otherover-picture3-1 {
+    position: absolute;
+    left: 20%;
+}
+.Otherover-picture3-2 {
+    position: absolute;
+    left: 60%;
+}
+.Otherover-picture3-1 a:visited, .Otherover-picture3-2 a:visited {
+    color: #2997ff;
+}
+.Otherover-picture3-1 a:hover, .Otherover-picture3-2 a:hover {
+    border-bottom: 2px solid #2997ff;
+}
+
+
+
+
+
+.Otherpicture4 {
+    width: 100%;
+    height: 483.97px;
+    background-image: url("./iPhone\ 6-7-8\ Plus\ –\ 3.png");
+    background-size: cover;
+    margin-bottom: 10px;
+    position: relative;
+}
+.Otherpicture4 a {
+    font-size: 20px;
+    color: #06c;
+}
+.Otherpicture4 a {
+    color: #06c;
+}
+.Otherpicture4 a:hover {
+    border-bottom: 2px solid #06c;
+}
+.Othericon-play {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+.fa-play-circle {
+    color: blue;
+}
+
+
+
+
+.Otherpicture5 {
+    width: 100%;
+    height: 483.97px;
+    background-image: url("./iPhone\ 6-7-8\ Plus\ –\ 4.png");
+    background-size: cover;
+    margin-bottom: 10px;
+    position: relative;
+}
+.Otherinside-picture5 {
+    display: flex;
+}
+.Otherinside-picture5-1, .Otherinside-picture5-2 {
+    font-size: 18px;
+    color: #06c;
+}
+.Otherinside-picture5-1 { 
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.Otherinside-picture5-2 {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+.Otherinside-picture5-1 a:visited, .Otherinside-picture5-2 a:visited {
+    color: #06c;
+}
+.Otherinside-picture5-1 a:hover, .Otherinside-picture5-2 a:hover {
+    border-bottom: 2px solid #06c;
+}
+
+
+
+.Otherpicture6 {
+    width: 100%;
+    height: 483.97px;
+    background-image: url("./iPhone\ 6-7-8\ Plus\ –\ 5.png");
+    background-size: cover;
+    margin-bottom: 10px;
+    position: relative;
+}
+.Otherpicture6 .Otherinside-picture6-1 {
+    font-size: 18px;
+    color: #06c;
+}
+.Otherpicture6 a {
+    color: #06c;
+}
+.Otherpicture6 a:hover {
+    border-bottom: 2px solid #06c;
+}
+.Otherinside-picture6-1 {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+
+
+.Otherpicture7 {
+    width: 100%;
+    height: 483.97px;
+    background-image: url("./iPhone\ 6-7-8\ Plus\ –\ 6.png");
+    background-size: cover;
+    margin-bottom: 10px;
+    position: relative;
+}
+.Otherpicture7 .Otherinside-picture7-1 {
+    font-size: 18px;
+    color: #06c;
+}
+.Otherpicture7 a {
+    color: #06c;
+}
+.Otherpicture7 a:hover {
+    border-bottom: 2px solid #06c;
+}
+.Otherinside-picture7-1 {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+
+
+
+.Otherpicture8 {
+    width: 100%;
+    height: 483.97px;
+    background-image: url("./iPhone\ 6-7-8\ Plus\ –\ 7.png");
+    background-size: cover;
+    margin-bottom: 10px;
+    position: relative;
+}
+.Otherinside-picture8 {
+    display: flex;
+}
+.Otherinside-picture8-1, .Otherinside-picture8-2 {
+    font-size: 18px;
+    color: white;
+}
+.Otherinside-picture8-1 { 
+    font-size: 14px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+.Otherinside-picture8-2 {
+    font-size: 15px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.Otherinside-picture8-1 a:visited, .Otherinside-picture8-2 a:visited,.Otherinside-picture8-1 a, .Otherinside-picture8-2 a {
+    color: white;
+}
+.Otherinside-picture8-1 a:hover, .Otherinside-picture8-2 a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+
+.Otherpicture9 {
+    width: 100%;
+    height: 483.97px;
+    background-image: url("./iPhone\ 6-7-8\ Plus\ –\ 8.png");
+    background-size: cover;
+    margin-bottom: 20px;
+    position: relative;
+}
+.Otherinside-picture9 {
+    display: flex;
+}
+.Otherinside-picture9-1, .Otherinside-picture9-2 {
+    font-size: 18px;
+    color: white;
+}
+.Otherinside-picture9-1 { 
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+    left: 15%;
+}
+.Otherinside-picture9-2 {
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+    left: 55%;
+}
+.Otherinside-picture9-1 a:visited, .Otherinside-picture9-2 a:visited,.Otherinside-picture9-1 a, .Otherinside-picture9-2 a {
+    color: white;
+}
+.Otherinside-picture9-1 a:hover, .Otherinside-picture9-2 a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+
+.Otherapple-number {
+    display: none;
+    font-size: 13px;
+    color: rgba(134, 134, 134, 0.849);
+    padding: 10px;
+}
+.Otherapple-number a:visited, .Otherapple-number a:hover {
+    color: #06c;
+}
+
+
+
+.Otherfooter {
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgba(112, 112, 112, 0.877);
+    display: none;
+}
+.Otheramerican-flag {
+    width: 15px;
+    height: 15px;
+    background-image: url("./16.png");
+    background-size: cover;
+    margin-left: 10px;
+}
+
+
+
+@media (max-width: 440px) {
+    .logo-1 i {
+        display: block;
+        color: rgba(255, 255, 255, 0.623) !important;
+        font-size: 150%;
+    }
+    .logo-2 i {
+        display: block;
+        color: rgba(255, 255, 255, 0.623) !important;
+        margin-right: 15px;
+    }
+    .under-menu {
+        display: none;
+    }
+    .under-menu-1 { 
+        display: block;
+       
+    }
+    .picture1 {
+        display: none;
+    }
+    .Otherpicture1 {
+        display: block !important;
+    }
+    .picture2 {
+        display: none;
+    }
+    .Otherpicture2 {
+        display: block !important;
+    }
+    .picture3 {
+        display: none;
+    }
+    .Otherpicture3 {
+        display: block !important;
+    }
+    .introduce-1 {
+        display: none;
+    }
+    .Otherintroduce-1 {
+        display: block !important;
+    }
+    .introduce-2 {
+        display: none;
+    }
+    .Otherintroduce-2 {
+        display: block !important;
+    }
+    .introduce-3 {
+        display: none;
+    }
+    .Otherintroduce-3 {
+        display: block !important;
+    }
+    .description {
+        font-size: 13px;
+        width: 90% !important;
+        margin-left: 10px !important;
+    }
+    .group {
+        display: none;
+    }
+    .Othergroup {
+        display: block !important;
+    }
+    .apple-number {
+        display: none;
+    }
+    .Otherapple-number {
+        display: block !important;
+    }
+    .footer {
+        display: none;
+    }
+    .Otherfooter {
+        display: block;
+    }
+}
+@media (max-width: 375px) {
+    .Otherpicture4, .Otherpicture5, .Otherpicture6, .Otherpicture7, .Otherpicture8, .Otherpicture9 {
+        height: 416.97px;
+    }
+}
+@media (max-width: 360px) {
+    .Otherpicture4, .Otherpicture5, .Otherpicture6, .Otherpicture7, .Otherpicture8, .Otherpicture9 {
+        height: 400.97px;
+    }
+}
+@media (max-width: 320px) {
+    .Otherpicture4, .Otherpicture5, .Otherpicture6, .Otherpicture7, .Otherpicture8, .Otherpicture9 {
+        height: 361.97px;
+    }
+}
